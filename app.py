@@ -32,7 +32,7 @@ def set_background(png_file):
 st.title("🎬 Movie Recommendation System 🍿")
 
 # Set background image
-set_background('images/background_image.jpg')
+set_background('images/background_image_1.jpg')
 
 # Select a user for collaborative filtering
 user_id = st.number_input("Enter User ID (1-100):", min_value=1, max_value=100, value=1)
